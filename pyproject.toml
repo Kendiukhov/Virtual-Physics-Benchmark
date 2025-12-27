@@ -1,0 +1,15 @@
+ [project]
+ name = "laws-benchmark"
+ version = "0.1.0"
+ description = "Virtual physics benchmark framework for testing AI scientific discovery"
+ authors = [{ name = "Ihor Kendiukhov", email = "kenduhov.ig@gmail.com" }]
+ readme = "README.md"
+ requires-python = ">=3.11"
+ dependencies = []
+
+ [project.optional-dependencies]
+ sympy = ["sympy>=1.12"]
+
+ [build-system]
+ requires = ["setuptools>=68"]
+ build-backend = "setuptools.build_meta"
